@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Louis Tanak | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script defer src="functionality.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body class="c1" style="max-width: 100%; overflow-x:hidden; height:100%; margin:0; padding:0;">
+<!-- nav bar -->
+<section id = "navBar">
+    <div class = "c1">
+        <div class="swipeDown container-lg py-4">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10">
+                    <nav class="navbar">
+                        <div class="col-2 text-start">
+                            <h1 style = "color: #00869e;">LT</h1>
+                        </div>
+                        <div class="col-10 text-end navMaxFontSize">
+                            <a class="one min-width d-inline-flex px-xl-4 px-2 fadeOutHL" href="./index.html">Home</a>
+                            <a class="one min-width d-inline-flex px-xl-4 px-2 fadeOutHL" href="./projects.html">Projects</a>
+                            <a class="one min-width d-inline-flex px-xl-4 px-2 fadeOutHL" href="./experience.html">Experience</a>
+                            <a class="two min-width d-inline-flex px-xl-4 px-2 fadeOutHL" href="./contact.html">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Projects Introduction-->
+<section id = "projectsIntroduction">
+    <div class = "c1">
+        <div class="container-lg">
+            <div class="row justify-content-center text-center align-items-center gy-3">
+                <div class="hidingTransition col-md-10">
+                    <h1>My Projects</h1>
+                    <br>
+                    <p>
+                        This section covers some of the programming projects and hackathons I have completed. There are a mix of projects that
+                        I have done in my own time, and projects from university / education.
+                    </p>
+                </div>
+                <div class="py-3"></div>
+                <div class="row justify-content-center align-items-center text-center">
+                    <button type="button" class="swipeRight col-2 btn" data-bs-target="#projectCarousel" data-bs-slide="prev"><i class="bi bi-chevron-left fadeOut iconCyan"></i></button>
+                    <div class="col-1"></div>
+                    <button type="button" class="swipeLeft col-2 btn" data-bs-target="#projectCarousel" data-bs-slide="next"><i class="bi bi-chevron-right fadeOut iconCyan"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="py-5"></div>
+    </div>
+</section>
+<!-- Project Carousel -->
+<section class="projects">
+    <div class="c2">
+        <div class="py-5"></div>
+        <div class="container-lg">
+            <div class="row justify-content-center text-start align-items-center">
+                <div class="col-md-10">
+                    <div id="projectCarousel" class="carousel slide carousel-fade pb-5">
+                        <div class="hidingTransition carousel-indicators">
+
+                            <button style="background-color: #00869e;" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button style="background-color: #00869e;" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button style="background-color: #00869e;" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button style="background-color: #00869e;" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button style="background-color: #00869e;" data-bs-target="#projectCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button style="background-color: #00869e;" data-bs-target="#projectCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+                        </div>
+                        <div class="carousel-inner img-fluid">
+
+                            <div class="carousel-item active img-fluid" style="transition: 0.5s;">
+                                <div class="hidingTransition card">
+                                    <div id="Binary Classification Title Card" class="text-center" style="background-color: #101118; border-radius: 48px;">
+                                        <div id="title" class="py-3">
+                                            <h1>AI Binary Classification Model</h1>
+                                            <h2>Python, TensorFlow, Keras API, Matplotlib, OpenCV, Jupyter Notebooks</h2>
+                                            <h2 style="color: white;">Personal Project</h2>   
+                                        </div> 
+                                    </div>
+                                    <div id="Binary Classification Body" class="card-body text-lg-start">
+                                        <h2>Project Aim</h2>
+                                        <p>
+                                            The project aim was to create an AI binary classification model to explore the area of neural networks and classification.
+                                            The aim was to create a network that would successfully identify an image as either a "Porsche" or a "McLaren". I would use
+                                            TensorFlow and the Keras APIs to create the neural network, and plot data using Matplotlib. To filter irrelevant data, I used
+                                            OpenCV scripts to remove anomalous images and I would complete the project in a Jupyter Notebook.
+                                        </p>
+                                        <h2>Project Technologies & Skills</h2>
+                                        <p>
+                                            <i class="bi bi-code-square"></i> - Python<br>
+                                            <i class="bi bi-cpu"></i> - TensorFlow<br>
+                                            <i class="bi bi-graph-up"></i> - Matplotlib - To plot data<br>
+                                            <i class="bi bi-cloud-arrow-down"></i> - Keras APIs<br>
+                                            <i class="bi bi-journal-code"></i> - OpenCV<br>
+                                        </p>
+                                        <h2>Project Result</h2>
+                                        <p>
+                                            The results of the project was a classification model which achieved ~95% accuracy when classifying either a Porsche or a McLaren.
+                                            From this project I have learnt about various neural network layers and how train, validate and test an AI model. Using these skills,
+                                            it will allow me pursue larger AI / ML projects using larger data sets and more complex networks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item img-fluid" style="transition: 0.5s;">
+                                <div class="hidingTransition card">
+                                    <div id="Project Portfolio Title Card" class="text-center" style="background-color: #101118; border-radius: 48px;">
+                                        <div id="title" class="py-3">
+                                            <h1>Portfolio</h1>
+                                            <h2>HTML, CSS, JavaScript, Bootstrap 5</h2>
+                                            <h2 style="color: white;">Personal Project</h2>   
+                                        </div> 
+                                    </div>
+                                    <div id="Project Portfolio Body" class="card-body text-lg-start">
+                                        <h2>Project Aim</h2>
+                                        <p>The project aim was to create my first website, 
+                                            a place where I can showcase my experience, projects and other itinerary related to me. I wanted
+                                            to use a frontend framework such as Bootstrap to make the website work for mobile devices / any device
+                                             resolution.
+                                        </p>
+                                        <h2>Project Technologies & Skills</h2>
+                                        <p>
+                                            <i class="bi bi-code-slash"></i> - HTML<br>
+                                            <i class="bi bi-braces"></i> - CSS<br>
+                                            <i class="bi bi-filetype-js"></i> - JavaScript<br>
+                                            <i class="bi bi-bootstrap"></i> - Bootstrap 5<br>
+                                        </p>
+                                        <h2>Project Result</h2>
+                                        <p>
+                                            The result of the project is what you are currently seeing! I was able to create my website and it will be
+                                            updated and expanded over my career, with my future experiences, projects and more.<br><br>Here are a few ideas of 
+                                            what I plan to add in the future : </p>
+                                        <p>
+                                            <i class="bi bi-terminal"></i> - An environment where all of my projects can be run, so you the user can have a look at them.<br>
+                                            <i class="bi bi-person-add"></i> - Quick follow, click a button and it follows me on LinkedIn without opening the app / website.<br>
+                                            <i class="bi bi-arrow-clockwise"></i> - Generating ideas...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item img-fluid" style="transition: 0.5s;">
+                                <div class="hidingTransition card">
+                                    <div id="Pac-Man Revisited Title Card" class="text-center" style="background-color: #101118; border-radius: 48px;">
+                                        <div id="title" class="py-3">
+                                            <h1>Pac-Man Revisited</h1>
+                                            <h2>Python, NumPy, OOP, Pygame, Vectors</h2>   
+                                            <h2 style="color: white;">A-Level Coursework, Mark - 68/70</h2> 
+                                        </div> 
+                                        <!-- <img src="./assets/PacManThumbnail.png" class="img-fluid" alt="#" style="border-radius: 48px;"> -->
+                                    </div>
+                                    <div id="Pac-Man Body" class="card-body text-lg-start">
+                                        <h2>Project Aim</h2>
+                                        <p>The requirements for the coursework was to create any program we desired, whilst learning a 
+                                             high-level technique / skill. 
+                                            I decided to make a modernised version of Pac-Man in Python, with my high-level skill being writing it as an OOP. 
+                                            <br><br>Alongside the project, I had 
+                                            to write its documentation, with sections including analysis, design, implementation and evaluation of the solution.
+                                        </p>
+                                        <h2>Project Technologies & Skills</h2>
+                                        <!-- <p class = "fs-5 fs-sm-3">
+                                            Technology List
+                                        </p> -->
+                                        <p>
+                                            <i class="bi bi-code-square"></i> - Python<br>
+                                            <i class="bi bi-journal-code"></i> - NumPy Library<br>
+                                            <i class="bi bi-aspect-ratio"></i> - Pygame - Used for GUI and displaying content.<br>
+                                            <i class="bi bi-calculator"></i> - Vector Calculations - Ghost Algorithm Calculations.<br>
+                                            <i class="bi bi-diagram-3"></i> - OOP - Code is structured in classes, used encapsulation, inheritance, etc.
+                                        </p>
+                                        <h2>Project Result</h2>
+                                        <p>The result of the project was a complete version of Pac-Man that fully works, with lots 
+                                            of features that make it a unique project amongst the others.<br><br> From this coursework, I achieved a mark
+                                            of 68/70, the highest in my class.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item img-fluid" style="transition: 0.5s;">
+
+                                <div class="hidingTransition card">
+                                    <div id="FastF1 Title Card" class="text-center" style="background-color: #101118; border-radius: 48px;">
+                                        <div id="title" class="py-3">
+                                            <h1>FastF1</h1>
+                                            <h2>Python, Matplotlib, APIs, Data Handling & Visualisation</h2>
+                                            <h2 style="color: white;">Personal Project</h2> 
+                                        </div> 
+                                        <!-- <img src="#" class="img-fluid" alt="#" style="border-radius: 48px;"> -->
+                                    </div>
+                                    <div id="FastF1 Body" class="card-body text-lg-start">
+                                        <h2>Project Overview</h2>
+                                        <p> 
+                                            My aim was to learn how to use APIs to visualise F1 data using Python and Matplotlib. 
+                                            This was one of my first projects to learn something I had not been taught yet at school.<br><br>
+                                            I was able to learn and use APIs and understand the importance of data visualisation as well as to understand 
+                                            how F1 data from practice sessions can be used to optimise the race strategy.
+                                        </p>
+                                        <h2>Project Technologies & Skills</h2>
+                                        <!-- <p class = "fs-5 fs-sm-3">
+                                            Technology List
+                                        </p> -->
+                                        <p>
+                                            <i class="bi bi-code-square"></i> - Python<br>
+                                            <i class="bi bi-graph-up"></i> - Matplotlib - To plot data<br>
+                                            <i class="bi bi-cloud-arrow-down"></i> - APIs
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item img-fluid" style="transition: 0.5s;">
+
+                                <div class="hidingTransition card">
+                                    <div id="Uni Title Card" class="text-center" style="background-color: #101118; border-radius: 48px;">
+                                        <div id="title" class="py-3">
+                                            <h1>University Coursework</h1>
+                                            <h2>Java, C, Assembly, Haskell</h2>
+                                            <h2 style="color: white;">This section will expand over the duration of my degree</h2> 
+                                        </div> 
+                                    </div>
+                                    <div id="Uni Body" class="card-body text-lg-start">
+                                        <h2>Coursework Modules & Grades</h2>
+                                        <p>Here is a list of university modules that I have had coursework for and my grade so far. Due to the nature of the work, I am not able to explain each individual project here.
+                                        </p>
+                                        <ul class="variableFontSize">
+                                            <li>CS118 (Java, Data Structures) - First Class</li>
+                                            <li>CS132 (Hardware, Logic, Assembly) - First Class</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                
+                            </div>
+
+                            <div class="carousel-item img-fluid" style="transition: 0.5s;">
+
+                                <div class="hidingTransition card">
+                                    <div id="Future Ideas Title Card" class="text-center" style="background-color: #101118; border-radius: 48px;">
+                                        <div id="title" class="py-3">
+                                            <h1>Future Projects / Ideas</h1>
+                                            <h2>Future Technologies - PyTorch, TensorFlow, Data Structures...</h2>
+                                        </div> 
+                                    </div>
+                                    <div id="Future Ideas Body" class="card-body text-lg-start">
+                                        <p>Here are a few ideas of projects I plan to do in the future :</p>
+                                        <p>
+                                            <i class="bi bi-cpu"></i> - AI Classification, to identify a car manufacturer from an image of a car using a large dataset.<br>
+                                            <i class="bi bi-diagram-2"></i> - Visualising Algorithms, such as Dijkstra's, A*,  DFS and more.<br>
+                                            <i class="bi bi-graph-up-arrow"></i> - Trading Algorithm, to introduce me to the economic world.<br>
+                                            <i class="bi bi-arrow-clockwise"></i> - Generating ideas...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-5"></div>
+    </div>
+</section>
+<!-- footer -->
+<section id = "footer">
+    <div class = "c1">
+        <div class="py-5"></div>
+        <div class="container-lg">
+            <div class="row justify-content-center text-center align-items-center">
+                <div class="hidingTransition col-md-10">
+                    <h1 class = "footerVaryingSize">That's the end of this page, check out the other projects or pages!</h1>
+                    <br>
+                    <button type="button" class="fadeOut btn" onclick="topFunction()">Back to Top</button>
+                </div>
+            </div>
+        </div>
+        <div class="py-sm-5"></div>
+    </div> 
+    <div class = "c1 footerImg">
+        <br><br><br><br><br><br><br><br>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
