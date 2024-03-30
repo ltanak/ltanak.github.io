@@ -195,6 +195,14 @@ small {
         transition: all 500ms;
     }
 }
+
+.btn2 {
+    font-weight: bold;
+    color: white;
+    border-width: 4px;
+    border-color: white;
+}
+
 .w120 {
     width: 120px;
 }
